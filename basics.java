@@ -30,8 +30,18 @@ public class basics{
      }*/
 
     // QUESTION = 3
+     import java.util.*;
      public class basics{
         public static void main(String[] args) {
+            Scanner sc = new Scanner (System.in);
+            float pencil = sc.nextFloat();
+            float eraser = sc.nextFloat();
+            float pen = sc.nextFloat();
+            float cost = pencil+eraser+pen;
+            float gst = (cost)*18/100;
+            float total = cost+gst;
+            System.out.println("TOTAL BILL WITH 18% GST ="+total);
+
             
         }
      }
